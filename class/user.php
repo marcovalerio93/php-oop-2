@@ -9,12 +9,15 @@ class User {
     public $email;
     public $password;
 
-    public function __construct($name, $surname, $email, $password)
-    {
+    public function __construct($name, $surname, $email, $password) {
         $this->name = $name;
         $this->surname = $surname;
         $this->email = $email;
         $this->password = $password;
+    }
+
+    public function getUserInfo() {
+        return $this->name . '' . $this->surname . '' . $this->email . ''. $this->password . '' ;
     }
 
     

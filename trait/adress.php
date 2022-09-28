@@ -6,5 +6,8 @@ trait Adress {
     public $adress;
     public $houseNumber;
 
-    
+    public function getAllAdress() {
+
+        return $this->adress . '' . $this->houseNumber . '' . $this->municipaity . '';
+    }            
 }

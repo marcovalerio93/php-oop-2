@@ -15,6 +15,10 @@ class Property{
 
     }
 
+    public function getPropertyInfo() {
+        return $this->name . '' . $this->area . '' . $this->rooms . ''. $this->floor . '' ;
+    }
+
     
     
 
