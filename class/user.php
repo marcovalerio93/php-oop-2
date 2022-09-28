@@ -1,9 +1,21 @@
 <?php 
 
+require_once __DIR__ . '/../trait/adress.php';
+
 class User {
 
     public $name;
     public $surname;
     public $email;
-    public $pasord;
+    public $password;
+
+    public function __construct($name, $surname, $email, $password)
+    {
+        $this->name = $name;
+        $this->surname = $surname;
+        $this->email = $email;
+        $this->password = $password;
+    }
+
+    
 }
