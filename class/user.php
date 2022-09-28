@@ -1,6 +1,6 @@
 <?php 
 
-require_once __DIR__ . '/../trait/adress.php';
+require_once __DIR__ . '/../trait/Adress.php';
 
 class User {
 
